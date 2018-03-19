@@ -10,7 +10,8 @@ order: 4
 $$MAE_{ind}=\frac{\sum_{i=1}^{600}|x_{ind}(i)-y_{ind}(i)|}{600}$$
 
 $$PCC_{ind}=\frac{\sum_{i=1}^{600}[x_{ind}(i)-\bar{x}_{ind}][y_{ind}(i)-\bar{y}_{ind}]}{\sqrt{\sum_{i=1}^{600}[x_{ind}(i)-\bar{x}_{ind}]^2\sum_{i=1}^{600}[y_{ind}(i)-\bar{y}_{ind}]^2}}$$
-where $ind\in \{A1,A2, D1~D3, RWT1~RWT6\}$, $x_{ind}$ is the groud truth value and $y_{ind} is the estimated value, $\bar{x}_{ind}$ and $\bar{y}_{ind}$ are their mean values.
+
+where $$ind\in \{A1,A2, D1~D3, RWT1~RWT6\}$$, $$x_{ind}$$ is the groud truth value and $$y_{ind}$$ is the estimated value, $\bar{x}_{ind}$ and $\bar{y}_{ind}$ are their mean values.
 
 * Error Rate (ER) is used to assess the performance of the algorithms for cardiac phase identification. It can be computed as:
 $$ER_{phase}=\frac{\sum_{i=1}^{600}\mathbf{1}(x_phase(i)\neq y_{phase}(i))}{600}$$
