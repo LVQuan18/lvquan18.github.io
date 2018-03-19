@@ -4,4 +4,4 @@ layout: post
 order: 4
 ---
 
-$$x=\sqrt(x_2)$$
+$$x=\sqrt{x_2}$$
