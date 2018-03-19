@@ -10,6 +10,6 @@ layout: default
 	{%- endif -%}
 	<!-- Sections -->
 	{%- for _post in _posts -%}
-		{%- include section.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content -%}
+		{%- include section.html title=_post.title photo=_post.cover-photo photo-alt=_post.cover-photo-alt auto-header=_post.auto-header content=_post.content -%}
 	{%- endfor -%}
 </div>
