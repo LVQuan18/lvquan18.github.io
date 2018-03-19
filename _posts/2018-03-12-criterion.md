@@ -20,8 +20,7 @@ where $${\scriptstyle \mathbf{1}()}$$ is the indication function, $${\scriptstyl
 
 # Ranking
 MAE and ER are used for the final ranking of all participants.
-
 0. Initialization: <br/> For each participant, compute $${\scriptstyle MAE_{ind}}$$ for $${\scriptstyle ind\in \{A1,A2, D1~D3, RWT1~RWT6\}}$$ and $${\scriptstyle ER_{phase}}$$.
-1. Compute the mean MAE values for areas, dimensions, and regional wall thicknesses, and obtain $${\scriptstyle MAE_{area}}$$, $${\scriptstyle MAE{dim}}$$, $${\scriptstyle MAE{rwt}}$$.
-2. Build four ranking lists ($${\scriptstyle R_{area}}$$, $${\scriptstyle R_{dim}}$$, $${\scriptstyle R_{rwt}}$$, $${\scriptstyle R_{phase}}$$) of all participants according to $${\scriptstyle MAE_{area}}$$, $${\scriptstyle MAE{dim}}$$, $${\scriptstyle MAE{rwt}}$$ and $${\scriptstyle ER_{phase}}$$ in ascending order, respectively. Statistical test is conducted for areas, dimensions, and regional wall thicknesses to test the significance of difference between two participants. If no significance exists, the two participants will have the same rank in the list.
+1. Compute the mean MAE values for areas, dimensions, and regional wall thicknesses, and obtain $${\scriptstyle MAE_{area}}$$, $${\scriptstyle MAE_{dim}}$$, $${\scriptstyle MAE_{rwt}}$$.
+2. Build four ranking lists ($${\scriptstyle R_{area}}$$, $${\scriptstyle R_{dim}}$$, $${\scriptstyle R_{rwt}}$$, $${\scriptstyle R_{phase}}$$) of all participants according to $${\scriptstyle MAE_{area}}$$, $${\scriptstyle MAE_{dim}}$$, $${\scriptstyle MAE_{rwt}}$$ and $${\scriptstyle ER_{phase}}$$ in ascending order, respectively. Statistical test is conducted for areas, dimensions, and regional wall thicknesses to test the significance of difference between two participants. If no significance exists, the two participants will have the same rank in the list.
 3. The final ranking list RALL is computed by sorting the summation of the four ranking lists above in ascending order.
