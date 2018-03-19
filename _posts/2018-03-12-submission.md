@@ -1,5 +1,5 @@
 ---
-title: Page Submission
+title: Paper Submission
 layout: post
 order: 5
 ---
