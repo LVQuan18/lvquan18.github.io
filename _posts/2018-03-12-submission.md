@@ -4,7 +4,7 @@ layout: post
 order: 5
 ---
 <!-- Text stuff -->
-# Workshap paper
+# Workshop paper
 All participants are encouraged to submit a full workshop paper describing their algorithms and results. Manuscript up to 8 pages should follow the template of main conferences’ paper and be submitted via the [**STACOM submission system**](http://stacom2018.cardiacatlas.org/submission/).
 
 # One-page abstract
